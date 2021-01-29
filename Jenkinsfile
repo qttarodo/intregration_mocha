@@ -4,13 +4,6 @@ pipeline {
   tools {nodejs "NodeJS"}
 
   stages {
-
-    stage('Cloning Git') {
-      steps {
-        git 'https://github.com/qttarodo/intregration_mocha'
-      }
-    }
-
     stage('Install dependencies') {
       steps {
         sh 'npm install'
