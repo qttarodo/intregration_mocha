@@ -22,7 +22,7 @@ describe('worker', function() {
   });
 
   describe('when run as main process', function() {
-    it('should throw', function() {
+    it.skip('should throw', function() {
       expect(() => {
         rewiremock.proxy(WORKER_PATH, {
           workerpool: {
