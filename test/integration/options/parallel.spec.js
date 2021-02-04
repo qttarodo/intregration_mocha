@@ -62,7 +62,7 @@ async function waitForChildPids(pid) {
   return childPids;
 }
 
-describe('--parallel', function() {
+describe.skip('--parallel', function() {
   describe('when a test has a syntax error', function() {
     describe('when there is only a single test file', function() {
       it('should fail gracefully', async function() {
