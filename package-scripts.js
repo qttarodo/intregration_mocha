@@ -3,7 +3,7 @@
 const path = require('path');
 
 /**
- * Generates a command to run mocha tests with or without test coverage
+ * Generates a command to run mocha tests with or without test coveragee
  * as desired for the current runmode.
  * @param {string} testName The name of the test to be used for coverage reporting.
  * @param {string} mochaParams Parameters for the mocha CLI to execute the desired test.
