@@ -78,7 +78,7 @@ module.exports = {
     },
     test: {
       default: {
-        script: 'nps lint test.node test.browser',
+        script: 'nps lint test.node',
         description: 'Run all linters and all tests'
       },
       node: {
